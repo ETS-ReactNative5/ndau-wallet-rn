@@ -15,8 +15,8 @@ def getPassword(String currentUser, String keyChain) {
     stdout.toString().trim()
 }
 
-def pass = getPassword("kristoferpelchat","android_keystore")
-
+// def pass = getPassword("kristoferpelchat","android_keystore")
+def pass = ""
 
 repositories {
     mavenCentral()
